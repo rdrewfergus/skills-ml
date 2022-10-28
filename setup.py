@@ -27,7 +27,7 @@ setup(
     author="Center for Data Science and Public Policy",
     author_email='datascifellows@gmail.com',
     url='https://github.com/workforce-data-initiative/skills-ml',
-    packages=find_packages(include=['skills_ml*']),
+    packages=find_packages(include=['skills_ml*', 'tests*']),
     include_package_data=True,
     install_requires=requirements,
     extras_require={
